@@ -3,7 +3,7 @@ def isPrime(x, tillx):
   for i in tillx:
     if (x % i) == 0:
       divided = 1
-  
+
   if divided == 0:
     tillx.append(x)
 
